@@ -88,8 +88,10 @@ function [data_struct_augmented_new,ll_household_new,acceptance] = update_asymp_
     
     data_struct_augmented_prop = data_struct_augmented_old;
     data_struct_augmented_prop.t_i = t_i_prop;
+    data_struct_augmented_prop.t_s = t_s_prop;
     data_struct_augmented_prop.t_i_dir = t_i_dir_prop;
     data_struct_augmented_prop.t_s_dir = t_s_dir_prop;
+    data_struct_augmented_prop.t_dir_host_inds = t_dir_host_inds_prop;
     data_struct_augmented_prop.symp_dir = symp_dir_prop;
     data_struct_augmented_prop.asymp_dir = asymp_dir_prop;
     
